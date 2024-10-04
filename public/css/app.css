@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the admin panel */
+
+body {
+    margin: auto;
+    /* background-color: #f8f9fa; */
+}
+
+.navbar {
+    /* margin-bottom: 20px; */
+    width: 99.9%;
+    position: fixed;
+    /* margin-left: 250px; */
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #343a40;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff;
+}
+
+.container {
+    /* margin-right: 500px; */
+    /* margin-left: 200px; */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dropdown-menu {
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.dropdown-item {
+    color: #343a40;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
+
+.sidebar {
+    margin-top: 50px;
+    width: 250px;
+    background: #202d35;
+    color: white;
+    position: fixed;
+    height: 100%;
+    padding-top: 20px; /* Add some padding at the top */
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px 20px; /* Add padding to each link */
+    border-radius: 5px;
+    /* background-color: #ffffff; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sidebar a:hover {
+    background: #ffffff;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+    width: 90%;
+
+}
+
+
+.alert-success {
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #700202;
+    color: #000000;
+}
+
+.table {
+    font-size: 12px;
+
+    margin-bottom: 0;
+}
+
+.table thead th {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.btn-sm {
+    padding: .25rem .5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+
+
+.back {
+    background-image: url('/images/banner-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.table-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.table-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+/* table for fire alert management */
+.table-container {
+    text-align: center;
+    font-size: 12px;
+}
+.table th, .table td {
+    padding: 0.5rem;
+}
+.card-header {
+    background-color: #f8f9fa;
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
